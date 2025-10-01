@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fudong Wang - Personal Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f5f6fa;
+            color: #272b2b;
+        }
+        .cover {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(90deg, #2d3547 60%, #00aaff 100%);
+            color: #fff;
+            padding: 36px 18px;
+            box-shadow: 0 2px 16px #0001;
+        }
+        .cover-photo {
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 16px #0002;
+            margin-right: 36px;
+        }
+        .cover-info {
+            flex: 1;
+            min-width: 220px;
+        }
+        .cover-info h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 8px #0002;
+        }
+        .cover-info p {
+            margin: 8px 0;
+            font-size: 1.1em;
+        }
+        .cover-nav {
+            margin-top: 20px;
+            margin-left: 166px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 18px;
+        }
+        .cover-nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.07em;
+            padding: 5px 12px;
+            border-radius: 6px;
+            background: #00aaff33;
+            transition: background 0.18s;
+        }
+        .cover-nav a:hover {
+            background: #fff;
+            color: #0077c2;
+        }
+        .main {
+            max-width: 900px;
+            margin: 32px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        section h2 {
+            font-size: 1.3em;
+            color: #2d3547;
+            border-bottom: 2px solid #00aaff;
+            padding-bottom: 4px;
+            margin-bottom: 18px;
+            font-weight: 500;
+        }
+        ul {
+            margin-top: 0;
+            padding-left: 18px;
+        }
+        .subsection-title {
+            font-weight: bold;
+            margin-top: 14px;
+            margin-bottom: 6px;
+        }
+        .publication-title {
+            font-weight: bold;
+            color: #0077c2;
+        }
+        .grant-title {
+            font-weight: bold;
+            color: #d77;
+        }
+        .presentation-title {
+            font-weight: bold;
+            color: #297;
+        }
+        @media (max-width: 700px) {
+            .cover {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                padding: 18px 8px;
+            }
+            .cover-photo {
+                margin-right: 0;
+                margin-bottom: 12px;
+            }
+            .cover-nav {
+                margin-left: 0;
+                justify-content: center;
+                gap: 9px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cover">
+        <img src="photo.jpg" alt="Profile photo" class="cover-photo">
+        <div class="cover-info">
+            <h1>Fudong Wang</h1>
+            <p>Postdoctoral fellow, SUSTech</p>
+            
+        </div>
+    </div>
+    <nav class="cover-nav">
+        <a href="#about">About Me</a>
+        <a href="#experience">Working Experiences</a>
+        <a href="#education">Education Background</a>
+        <a href="#research">Research Interests</a>
+        <a href="#publications">Publications</a>
+        <a href="#papers">Working Papers</a>
+        <a href="#grants">Grants</a>
+        <a href="#presentations">Presentations</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main class="main">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="subsection-title">Personal Information</div>
+            <ul>
+                <li><b>Gender:</b> Male</li>
+                <li><b>Birth:</b> January 1998</li>
+                <li><b>Nationality:</b> China</li>
+                <li><b>Native place:</b> Yancheng, Jiangsu province</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Working Experiences</h2>
+            <ul>
+                <li>
+                    <b>Postdoctoral fellow</b> at the Department of Mathematics, SUSTech<br>
+                    Advisor: <a href="https://www.sustech.edu.cn/zh/faculties/zhangyiying.html" target="_blank">Asst.Prof. Yiying Zhang</a><br>
+                    August 2024 - Present
+                </li>
+                <li>
+                    <b>Teaching assistant</b>, SUSTech<br>
+                    Lesson: Probability Theory and Mathematical Statistics<br>
+                    February 2025 - July 2025
+                </li>
+                <li>
+                    <b>Visiting scholar</b> at the Department of Statistics and Actuarial Science, University of Hong Kong<br>
+                    Collaborator: <a href="https://saasweb.hku.hk/staff/kcyuen/" target="_blank">Prof. Kam Chuen Yuen</a><br>
+                    July 2023 - August 2023
+                </li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education Background</h2>
+            <ul>
+                <li>
+                    <b>Ph.D. in Statistics</b>, Nanjing Normal University<br>
+                    Supervisor: <a href="https://math.njnu.edu.cn/info/1010/2755.htm" target="_blank">Prof. Zhibin Liang</a><br>
+                    September 2019 - July 2024
+                </li>
+                <li>
+                    <b>B.Sc in Mathematics and Applied Mathematics</b>, Nanjing Normal University<br>
+                    September 2015 - June 2019
+                </li>
+                <li>
+                    <b>Jointly cultivated in the Department of Mathematics</b>, Nanjing University<br>
+                    September 2015 - January 2017
+                </li>
+            </ul>
+        </section>
+        <section id="research">
+            <h2>Research Interests</h2>
+            <ul>
+                <li>Applications of Stochastic Control in Finance and Insurance</li>
+                <li>Risk Management and Actuarial Science</li>
+                <li>Financial Mathematics</li>
+                <li>Game Theory</li>
+            </ul>
+        </section>
+        <section id="publications">
+            <h2>Publications</h2>
+            <ul>
+                <li>
+                    <span class="publication-title">Wang, F., Liang, Z. and Zhang, Y.* (2025).</span> Stackelberg equilibrium strategies between insurance demand and government interventions. <i>Journal of Economic Dynamics & Control</i>. 179, 105179.
+                </li>
+                <li>
+                    <span class="publication-title">Yuan, Y., Yuen, K. C. and Wang, F.* (2025).</span> Stackelberg equilibrium reinsurance contract with smooth ambiguity under thinning-dependence framework. <i>Scandinavian Actuarial Journal</i>. 1-30.
+                </li>
+                <li>
+                    <span class="publication-title">Wang, F., Liang Z.*, Yuen. K. C. and Zhang, C. (2025).</span> Time-consistent per-loss reinsurance and investment strategies in correlated markets with smooth ambiguity. <i>International Journal of Control</i>, 1-14.
+                </li>
+                <li>
+                    <span class="publication-title">Zhang, Q, Liang, Z.* and Wang, F. (2024).</span> A Stackelberg-Nash equilibrium with investment and reinsurance in mixed leadership game. <i>Scandinavian Actuarial Journal</i>, 7, 705--738.
+                </li>
+                <li>
+                    <span class="publication-title">Wang, F., Liang, Z.* and Zhang, C. (2024).</span> Time-consistent mean-variance risk sharing and reinsurance for an insurance group in a Stackelberg differential game. <i>Journal of Industrial & Management Optimization</i>, 21(1), 135--166.
+                </li>
+                <li>
+                    <span class="publication-title">Wang, F., Liang, Z.* (2022).</span> Optimal per-loss reinsurance for a risk model with a thinning-dependence structure. <i>Mathematics</i>, 10(23), 4621.
+                </li>
+            </ul>
+        </section>
+        <section id="papers">
+            <h2>Working Papers</h2>
+            <ul>
+                <li>
+                    <b>Wang, F., Liang, Z.* and Zhang, Y. (2025).</b> Optimal risk allocation for an insurance group with reinsurance business. <i>Mathematical Methods of Operations Research</i>. Revised.
+                </li>
+                <li>
+                    <b>Wang, F. and Liang, Z.* (2024).</b> Optimal per-loss reinsurance and investment problem under negative correlation assumption. <i>Stochastic Analysis and Applications</i>. Under review.
+                </li>
+            </ul>
+        </section>
+        <section id="grants">
+            <h2>Grants</h2>
+            <ul>
+                <li>
+                    <span class="grant-title">Research on Insurance Demand under Preventive Measures and Government Intervention</span><br>
+                    Supported by <i>National Natural Science Foundation of China</i>, January 2026 - December 2029. Participated.
+                </li>
+                <li>
+                    <span class="grant-title">Stochastic Differential Games and Reinsurance Contract Design in Complex Risk Models</span><br>
+                    Supported by <i>National Natural Science Foundation of China</i>, January 2025 - December 2028. Participated.
+                </li>
+                <li>
+                    <span class="grant-title">Stochastic Optimal Decision-making and Robust Control under Drawdown Constraints in Modern Insurance and Financial Risk Models</span><br>
+                    Supported by <i>National Natural Science Foundation of China</i>, January 2020 - December 2024. Participated.
+                </li>
+            </ul>
+        </section>
+        <section id="presentations">
+            <h2>Presentations</h2>
+            <ul>
+                <li>
+                    <span class="presentation-title">Academic Annual Conference of the Quantitative Finance and Insurance Branch of China's Optimization Method, Overall Planning Method</span><br>
+                    Place: Yunnan University of Finance and Economics, Kunming, China<br>
+                    Date: August 2025<br>
+                    Title: Moral-hazard-free reinsurance: extended distortion premium principles and counterparty default risk
+                </li>
+                <li>
+                    <span class="presentation-title">The 3rd International Conference on Actuarial Quantitative Finance and Risk Management</span><br>
+                    Place: Central University of Finance and Economics, Beijing, China<br>
+                    Date: July 2025<br>
+                    Title: Stackelberg equilibrium strategies between insurance demand and government interventions
+                </li>
+                <li>
+                    <span class="presentation-title">The 25th International Congress on Insurance: Mathematics and Economics</span><br>
+                    Place: Online<br>
+                    Date: July 2022<br>
+                    Title: Optimal per-loss reinsurance and investment problem under negative correlation assumption
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:wangfd3@sustech.edu.cn">wangfd3@sustech.edu.cn</a></p>
+            <p>Phone: +86 13776637063</p>
+            <p>Office: Rm.3001, School of Science, SUSTech</p>
+            
+        </section>
+    </main>
+</body>
+</html>
